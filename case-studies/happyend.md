@@ -31,8 +31,8 @@ flowchart LR
 
 The hard part was moving live data from Bitrix (MySQL) to PostgreSQL:
 
-1. **Idempotent import scripts** for the catalog, orders, payments and gift certificates, safe to re-run any number of times, so I could rehearse the migration repeatedly against fresh copies of production.
-2. **A runbook for cutover day:** write freeze on the old store, final backup, final import, per-domain verification (each city site checked separately), then the DNS switch.
+1. **Idempotent import** of the catalog (2,400+ products), orders, payments and gift certificates. Re-running it never duplicates data, so a failed or partial run is simply run again.
+2. **Cutover by runbook:** a write freeze on the old store, backups, the final import, and verification of each city domain separately.
 3. The production cutover was completed in **September 2026**, and Bitrix is fully retired.
 
 ## What I'd point out
