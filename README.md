@@ -15,7 +15,7 @@ Looking for **backend (Go), DevOps/SRE and full-stack (TypeScript/Next.js)** rol
 |---|---|
 | [**payhook**](https://github.com/unsound-mint/payhook) | Payments and webhooks service in Go: idempotent API, signed webhooks, transactional outbox to NATS JetStream, retries with dead letters. Helm chart tested on kind in CI; zero failed requests during a rolling restart under load. |
 | [**payhook-infra**](https://github.com/unsound-mint/payhook-infra) | Terraform for payhook on AWS: VPC, ALB + Auto Scaling, RDS, Secrets Manager, CloudWatch alarms, GitHub Actions deploys through OIDC, `terraform test`, tflint, Trivy. |
-| [**MusicRoomBot**](https://github.com/unsound-mint/MusicRoomBot) | Telegram booking bot used by NU's Music Room. Async Python, PostgreSQL constraints against double booking, Alembic, CI. |
+| [**MusicRoomBot**](https://github.com/unsound-mint/MusicRoomBot) | Telegram booking bot for NU's Music Room, **used by ~200 students since December 2025** (slots usually fully booked). Async Python, PostgreSQL constraints and advisory locks against double booking, Alembic, CI. |
 | [**water-meter-anomaly-detection**](https://github.com/unsound-mint/water-meter-anomaly-detection) | Anomaly detection in water-meter consumption data. |
 | [**nuclear-morphometry**](https://github.com/unsound-mint/nuclear-morphometry) | GPU pipeline for 2D/3D analysis of cell nuclei from confocal microscopy (Cellpose-SAM, PyTorch, Polars). |
 
