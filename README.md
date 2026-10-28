@@ -1,30 +1,56 @@
-### Hi, I'm Denis 👋
+# Hi, I'm Denis
 
-Backend and full-stack engineer and Computer Science student at **Nazarbayev University** (class of 2027), based in Astana, Kazakhstan (UTC+5). I build production systems end to end, from the database schema to deployment and monitoring, and I run two of them in production today.
+I'm a backend and systems developer based in Astana, Kazakhstan, and a
+Computer Science student at Nazarbayev University. I build and operate
+production applications, contribute to open-source systems software, and
+work on scientific computing.
 
-Looking for **backend (Go), DevOps/SRE and full-stack (TypeScript/Next.js)** roles and internships, remote or in Astana.
+I'm interested in backend, systems, and full-stack roles and internships,
+remote or in Astana.
 
-#### In production
+## Production work
 
-- **[Happy End](case-studies/happyend.md)**: e-commerce platform with ~7,000 monthly users, which I develop on my own. I moved it from 1C-Bitrix to Next.js + PostgreSQL + a PHP API, with Halyk Bank online payments, analytics in BigQuery and 3,700+ automated tests.
-- **[City news platform](case-studies/city-portals.md)**: a multi-tenant platform for two city portals that I built alone. Go API, PostgreSQL with row-level security and hybrid search, Kaspi Pay webhooks, CI/CD with automatic rollback, Prometheus/Grafana/OpenTelemetry.
+- **[Happy End](case-studies/happyend.md)** — An e-commerce platform with
+  ~7,000 monthly users. I develop and operate it end to end, including its
+  Next.js storefront, PostgreSQL database, PHP API, payments, and monitoring.
+- **[City news platform](case-studies/city-portals.md)** — A multi-tenant
+  platform for two city portals, built with Go and PostgreSQL. It includes
+  payment webhooks, automated deployments, and observability.
 
-#### Projects
+## Open-source contributions
 
-| | |
-|---|---|
-| [**payhook**](https://github.com/unsound-mint/payhook) | Payments and webhooks service in Go: idempotent API, signed webhooks, transactional outbox to NATS JetStream, retries with dead letters. Helm chart tested on kind in CI; zero failed requests during a rolling restart under load. |
-| [**payhook-infra**](https://github.com/unsound-mint/payhook-infra) | Terraform for payhook on AWS: VPC, ALB + Auto Scaling, RDS, Secrets Manager, CloudWatch alarms, GitHub Actions deploys through OIDC, `terraform test`, tflint, Trivy. |
-| [**MusicRoomBot**](https://github.com/unsound-mint/MusicRoomBot) | Telegram booking bot for NU's Music Room, **used by ~200 students since December 2025** (slots usually fully booked). Async Python, PostgreSQL constraints and advisory locks against double booking, Alembic, CI. |
-| [**water-meter-anomaly-detection**](https://github.com/unsound-mint/water-meter-anomaly-detection) | Anomaly detection in water-meter consumption data. |
-| [**nuclear-morphometry**](https://github.com/unsound-mint/nuclear-morphometry) | GPU pipeline for 2D/3D analysis of cell nuclei from confocal microscopy (Cellpose-SAM, PyTorch, Polars). |
+- **[MangoHud](https://github.com/flightlessmango/MangoHud/pulls?q=is%3Apr+author%3Aunsound-mint+is%3Amerged)** —
+  Merged fixes for EGL vsync, logging, and CPU temperature handling.
+- **[GPUArrays.jl](https://github.com/JuliaGPU/GPUArrays.jl/pulls?q=is%3Apr+author%3Aunsound-mint+is%3Amerged)** —
+  Merged changes to GPU range indexing and fast-math reductions.
 
-#### Stack
+I also have open contributions to
+[ROCm](https://github.com/ROCm/rocm-systems/pull/14307),
+[gamescope](https://github.com/ValveSoftware/gamescope/pull/2522),
+[DNF5](https://github.com/rpm-software-management/dnf5/pull/3012),
+and scientific software.
 
-**Go** · **TypeScript / Next.js / React** · PHP · Python · PostgreSQL · Redis · NATS · Docker · Kubernetes (Helm) · Terraform · AWS · GitHub Actions · Prometheus · Grafana · OpenTelemetry · Cloudflare · Linux
+## Selected projects
 
-I also do research at NU: high-performance Julia pipelines for large 3D astronomical datasets on the university HPC cluster.
+- **[payhook](https://github.com/unsound-mint/payhook)** — Go payments and
+  webhooks service built around idempotency, signed callbacks, a transactional
+  outbox, and retries. Includes a Helm chart and
+  [AWS infrastructure](https://github.com/unsound-mint/payhook-infra).
+- **[MusicRoomBot](https://github.com/unsound-mint/MusicRoomBot)** —
+  Telegram booking bot used by ~200 Nazarbayev University students since
+  December 2025. Uses Python and PostgreSQL to prevent double bookings.
+- **[nuclear-morphometry](https://github.com/unsound-mint/nuclear-morphometry)** —
+  GPU pipeline for 2D and 3D analysis of cell nuclei in microscopy images.
+- **[vbench](https://github.com/unsound-mint/vbench)** — Measures energy,
+  latency, and memory use for video classification on consumer GPUs.
 
-#### Contact
+I also work on Julia pipelines for large 3D astronomical datasets on the
+university HPC cluster.
 
-[LinkedIn](https://www.linkedin.com/in/denisxandreyev/) · denisxandreyev@gmail.com · English C1, Russian native
+## Tools
+
+Go · Python · Julia · TypeScript · PostgreSQL · Linux · Docker · Kubernetes ·
+Terraform · AWS · Prometheus · Grafana
+
+[LinkedIn](https://www.linkedin.com/in/denisxandreyev/) ·
+[Email](mailto:denisxandreyev@gmail.com)
