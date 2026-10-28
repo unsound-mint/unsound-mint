@@ -25,7 +25,7 @@ flowchart LR
 - **API and admin:** a PHP 8.5 API with a service layer, repositories and OpenAPI contracts, plus an admin panel for products, orders, content, promotions and certificates with role-based access.
 - **Analytics:** GA4 and PostHog e-commerce events, channel attribution, GA4 → BigQuery export and SQL reports, and an automated weekly Telegram digest.
 - **Performance:** Next.js ISR and caching, Cloudflare CDN, media on R2, duplicate database queries removed. Stock and prices sync from the MoySklad inventory system through a webhook receiver.
-- **Quality and infrastructure:** Docker Compose, Caddy, GitHub Actions CI/CD and Sentry. 3,700+ automated tests (Vitest, Playwright, Pest), PHPStan level 8, ESLint, Rector. A written security audit in October 2026 led to fixes for its critical findings.
+- **Quality and infrastructure:** Docker Compose, Caddy, GitHub Actions CI/CD and Sentry. 4,400+ automated tests (Vitest, Playwright, Pest), PHPStan level 8, ESLint, Rector. A written security audit in October 2026 led to fixes for its critical findings.
 
 ## The migration
 
@@ -38,4 +38,4 @@ The hard part was moving live data from Bitrix (MySQL) to PostgreSQL:
 ## What I'd point out
 
 - Halyk's callback carries no signature, so it is treated only as a trigger. The order is marked paid after the API asks Halyk's status endpoint directly and the amount matches. A scheduled sweep catches customers who never return to the site, so closing the tab after paying still ends in a paid order.
-- With 3,700+ tests, refactoring is cheap. That mattered most during the migration, when the same flows had to keep working against a new database.
+- With 4,400+ tests, refactoring is cheap. That mattered most during the migration, when the same flows had to keep working against a new database.
