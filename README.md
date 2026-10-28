@@ -14,8 +14,9 @@ remote or in Astana.
   ~7,000 monthly users. I develop and operate it end to end, including its
   Next.js storefront, PostgreSQL database, PHP API, payments, and monitoring.
 - **[City news platform](case-studies/city-portals.md)** — A multi-tenant
-  platform for two city portals, built with Go and PostgreSQL. It includes
-  payment webhooks, automated deployments, and observability.
+  platform for two regional portals, built with Go and PostgreSQL. It includes
+  row-level-security tenant isolation, hybrid search, a retrieval assistant,
+  automated deployments with rollback, and observability.
 
 ## Open-source contributions
 
