@@ -38,9 +38,9 @@ and scientific software.
   Supports FITS cube exploration, axial orientation maps, source-linked
   figures, and scoped supervisor reviews.
 - **[Conversation Quality Analytics (CQA)](https://github.com/unsound-mint/cqa-hackathon)** —
-  Hackathon prototype for evaluating multilingual support conversations
-  against versioned checklists, with verifiable evidence, deterministic
-  scoring, and auditable human corrections.
+  4th place out of 250 teams at the 2026 CQA Hackathon. Built a multilingual
+  support-conversation evaluation platform with verifiable evidence,
+  deterministic scoring, and auditable human review.
 - **[payhook](https://github.com/unsound-mint/payhook)** — Go payments and
   webhooks service built around idempotency, signed callbacks, a transactional
   outbox, and retries. Includes a Helm chart and
