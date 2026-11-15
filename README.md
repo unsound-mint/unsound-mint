@@ -19,7 +19,7 @@ Open to backend, DevOps and full-stack roles, remote or in Astana.
 - GPUArrays.jl: [range indexing kernels](https://github.com/JuliaGPU/GPUArrays.jl/pull/839), [`@fastmath` reductions](https://github.com/JuliaGPU/GPUArrays.jl/pull/840)
 - FITSIO.jl: [full COMMENT/HISTORY cards](https://github.com/JuliaAstro/FITSIO.jl/pull/246), [CONTINUE cards written as they are](https://github.com/JuliaAstro/FITSIO.jl/pull/247)
 
-In review: [ROCm FP8 conversions](https://github.com/ROCm/rocm-systems/pull/14307), [CARTA save through a symlink](https://github.com/CARTAvis/carta-backend/pull/1648), [uutils `date` time zones](https://github.com/uutils/coreutils/pull/16148).
+In review: [ROCm FP8 conversions](https://github.com/ROCm/rocm-systems/pull/14307), [CARTA save through a symlink](https://github.com/CARTAvis/carta-backend/pull/1648), [uutils `date` time zones](https://github.com/uutils/coreutils/pull/16148), [libsolv glob file search, 19× faster](https://github.com/openSUSE/libsolv/pull/643).
 
 ## Projects
 
