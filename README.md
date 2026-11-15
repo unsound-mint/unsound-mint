@@ -41,6 +41,11 @@ and scientific software.
   4th place out of 250 teams at the 2026 CQA Hackathon. Built a multilingual
   support-conversation evaluation platform with verifiable evidence,
   deterministic scoring, and auditable human review.
+- **[Parenting Planner](https://github.com/unsound-mint/parenting-planner)** —
+  Weekly plan for each parent, built from the family's own records and cited
+  health guidelines. Built in 24 hours for Business Cup 2.0 with a team of
+  three: Go API, PostgreSQL, Next.js, an OpenAPI contract with generated
+  clients, and a pure-function rules engine. [Live demo](https://parenting.unsoundmint.com).
 - **[payhook](https://github.com/unsound-mint/payhook)** — Go payments and
   webhooks service built around idempotency, signed callbacks, a transactional
   outbox, and retries. Includes a Helm chart and
